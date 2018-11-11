@@ -1,0 +1,131 @@
+
+table.tablero {
+    width: 658px;
+}
+table.tablero tr, table.tablero td {
+    border: 0px;
+}
+td.tablero-cabecera {
+    background-image: url('../imags/tablero5/tablero-cabecera.png');
+    width: 658px;
+    height: 211px;
+}
+td.tablero-fila-nums-sup {
+    background-image: url('../imags/tablero5/tablero-fila-nums-sup.png');
+    width: 397px;
+    height: 44px;
+}
+td.tablero-fila-logo {
+    background-image: url('../imags/tablero5/tablero-fila-logo.png');
+    width: 261px;
+    height: 139px;
+}
+td.tablero-fila-clave-oculta {
+    background-image: url('../imags/tablero5/tablero-fila-clave-oculta.png');
+    width: 397px;
+    height: 95px;
+}
+td.tablero-fila-clave-visible {
+    background-image: url('../imags/tablero5/tablero-fila-clave-visible.png');
+    width: 397px;
+    height: 95px;
+}
+
+td.tablero-fila-menus-opciones {
+    background-image: url('../imags/tablero5/tablero-fila-menus-opciones.png');
+    width: 658px;
+    height: 61px;
+}
+
+td.tablero-fila-unica {
+    background-image: url('../imags/tablero5/tablero-fila-unica.png');
+    width: 658px;
+    height: 75px;
+}
+td.tablero-fila-ini {
+    background-image: url('../imags/tablero5/tablero-fila-ini.png');
+    width: 658px;
+    height: 75px;
+}
+td.tablero-fila-interm {
+    background-image: url('../imags/tablero5/tablero-fila-interm.png');
+    width: 658px;
+    height: 75px;
+}
+td.tablero-fila-fin {
+    background-image: url('../imags/tablero5/tablero-fila-fin.png');
+    width: 658px;
+    height: 75px;
+}
+td.tablero-fila-nums-inf {
+    background-image: url('../imags/tablero5/tablero-fila-nums-inf.png');
+    width: 658px;
+    height: 43px;
+}
+td.tablero-pie {
+    background-image: url('../imags/tablero5/tablero-pie.png');
+    width: 658px;
+    height: 372px;
+}
+
+/* contenedor fila clave bolas */
+td.tablero-fila-clave-visible div:first-child {
+    text-align: left;
+    line-height: 71px;
+}
+/* espacio antes de clave bolas */
+td.tablero-fila-clave-visible div div:first-child {
+    width: 18px;
+    display: inline-table;
+}
+/* clave bola 1 */
+td.tablero-fila-clave-visible div div:nth-child(2) {
+    /*width: 71px;*/
+    width: 55px;
+    text-align: center;
+    display: inline-table;
+}
+/* clave bolas siguientes a 1 */
+td.tablero-fila-clave-visible div div:nth-child(1n+3) {
+    /*width: 64px;*/
+    width: 57px;
+    text-align: center;
+    display: inline-table;
+}
+
+/* contenedor fila X bolas predicción y resultado */
+td.tablero-fila-unica div:first-child, td.tablero-fila-ini div:first-child, td.tablero-fila-interm div:first-child, td.tablero-fila-fin div:first-child {
+    text-align: left;
+}
+/* espacio antes de predicción */
+td.tablero-fila-unica div div:first-child, td.tablero-fila-ini div div:first-child, td.tablero-fila-interm div div:first-child, td.tablero-fila-fin div div:first-child {
+    width: 18px;
+    display: inline-table;
+}
+/* bolas predicción */
+td.tablero-fila-unica div div:nth-child(2), td.tablero-fila-ini div div:nth-child(2), td.tablero-fila-interm div div:nth-child(2), td.tablero-fila-fin div div:nth-child(2) {
+    width: 71px;
+    text-align: center;
+    display: inline-table;
+}
+td.tablero-fila-unica div div:nth-child(1n+3), td.tablero-fila-ini div div:nth-child(1n+3), td.tablero-fila-interm div div:nth-child(1n+3), td.tablero-fila-fin div div:nth-child(1n+3) {
+    width: 64px;
+    text-align: center;
+    display: inline-table;
+}
+/* espacio separador entre predicción y resultado */
+td.tablero-fila-unica div div:nth-child(7), td.tablero-fila-ini div div:nth-child(7), td.tablero-fila-interm div div:nth-child(7), td.tablero-fila-fin div div:nth-child(7) {
+    width: 10px;
+    display: inline-table;
+}
+/* bolas resultado */
+td.tablero-fila-unica div div:nth-child(1n+8), td.tablero-fila-ini div div:nth-child(1n+8), td.tablero-fila-interm div div:nth-child(1n+8), td.tablero-fila-fin div div:nth-child(1n+8) {
+    width: 34px;
+    text-align: center;
+    display: inline-table;
+}
+/* núm. intento */
+td.tablero-fila-unica div div:nth-child(13), td.tablero-fila-ini div div:nth-child(13), td.tablero-fila-interm div div:nth-child(13), td.tablero-fila-fin div div:nth-child(13) {
+    display: inline-table;
+    margin-left: 15px;
+}

@@ -1,0 +1,144 @@
+html,
+body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links>a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.alert ul {
+    min-height: 10px;
+    text-align: justify;
+}
+
+.form-fila {
+    font-weight: bold;
+}
+
+.form-fila label {
+    margin-right: 5px;
+}
+
+.form-fila input {
+    border: black solid 2px;
+    color: black;
+    font-weight: bold;
+}
+
+.separacion-izq {
+    margin-left: 5px;
+}
+
+.separacion-dcha {
+    margin-right: 5px;
+}
+
+.btnActivo {
+    border: red 1px solid;
+}
+
+.colorBlanco {
+    color: white;
+}
+
+span.bola {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 6px;
+}
+span.marcador {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 6px;
+}
+
+/* Colores para OPTIONS de selectores de color */
+#opt_marino, #opt_rojo, #opt_verde, #opt_azul,
+#opt_morado, #opt_naranja, #opt_rosa, #opt_amarillo {
+    background-color: rgba(0, 0, 0, 0.21);
+}
+#opt_marino {
+    color: #1d4cb8;
+}
+#opt_rojo {
+    color: #b9231e;
+}
+#opt_verde {
+    color: #2db81d;
+}
+#opt_azul {
+    color: #07aacf;
+}
+#opt_morado {
+    color: #7738c4;
+}
+#opt_naranja {
+    color: #ff5f08;
+}
+#opt_rosa {
+    color: #dc00a3;
+}
+#opt_amarillo {
+    color: #fee400;
+}
+
+#row_partida_accion {
+    margin: 0 auto;
+}
+
+#footer {
+    background-color: #636b6f;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+#footer #site_name {
+    font-weight: bold;
+}
